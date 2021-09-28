@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to right top, #3498db, #00a7dc, #00b3d1, #00bdbe, #00c5a5, #00c79a, #00c88d, #1bc97f, #0dc688, #06c390, #0dc096, #1abc9c);
+}
+
+.calc-body {
+    background: radial-gradient(
+            rgba(255, 255, 255, 0.09),
+            rgba(255, 255, 255, 0.9)
+    );
+    width: 45vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.result {
+    position: absolute;
+
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 70vh;
+    width: 20vw;
+    background: radial-gradient(
+            rgba(0, 0, 0, 0.05), rgba(255, 255, 255, 0.5)
+    );
+}
+
+.result h1 {
+    font-size: 55px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 10px 30px;
+}
+
+.show {
+    margin-top: 85px;
+}
+
+.inp {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 70vh;
+    display: flex;
+}
+
+input {
+    font-weight: 880;
+    border-radius: 10px;
+    margin: 15px;
+    height: 45px;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid rgb(223, 217, 217);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.main {
+    margin-left: 45px;
+}
+
+button {
+    margin-top: 20px;
+    height: 45px;
+    width: 200px;
+    font-weight: 650;
+    cursor: pointer;
+    color: white;
+    background: #f1c40f;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 10px 10px 8px 10px rgba(136, 136, 136, 0.49);
+}
+
+button:hover {
+    background-color: lightseagreen;
+}
+
+::placeholder {
+    font-weight: 850;
+}

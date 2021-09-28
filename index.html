@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Marks-and-Grade-Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+    </style>
+
 </head>
 <body>
 
+<div class="calc-body">
+    <div class="result">
+        <h1>Result</h1>
+        <div class="show">
+            <h4>Total: <span id="total"> </span></h4>
+            <br>
+            <h4>Percentage: <span id="percentage"> </span></h4>
+            <br>
+            <h4>Grade: <span id="grade"> </span></h4>
+        </div>
+    </div>
+    <div class="inp">
+        <div class="main">
+            <input type="number" name="" id="math" placeholder="Math"><br>
+            <input type="number" name="" id="physics" placeholder="Physics"><br>
+            <input type="number" name="" id="chemistry" placeholder="Chemistry"><br>
+            <button onclick="getResult()">Calculate Result</button>
+        </div>
+    </div>
+</div>
+
+
 </body>
+<script src="js/mainFunction.js"></script>
 </html>
